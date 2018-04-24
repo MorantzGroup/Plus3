@@ -26,4 +26,8 @@ List of Files:
 	  
 
 R packages required: 
-"distances", "igraph", "geosphere"
+- PairHouseholds.R: "distances", "igraph" 
+- runMatchingAlgorithm.R: "clue"
+- ProcessData: "geosphere"
+
+PairHouseholds.R also makes use of code by Kolmogorv (2009) for minimum-cost perfect matching available at http://pub.ist.ac.at/~vnk/software.html
